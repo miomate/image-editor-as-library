@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JS image manipulator</title>
+  </head>
+
+  <body>
+    <img src="images/nodlogo.png" class="logos" id="img1" />
+    <img src="images/gdilogo.png" class="logos" id="img2" />
+
+    <script src="script.js"></script>
+    <!--Version two-->
+    <script type="text/javascript">
+      //~~~~~~version 1~~~~~~~
+
+      obj1({
+        // selector: '#img1',
+        selector: ".logos",
+        // action: 'rotate',
+        // action: 'setWidth',
+        // action: 'reset',
+        value: 100
+      });
+      //~~~~~~version 2~~~~~~~
+      // obj2.setWidth('#img2', '150px')
+      // obj2.setWidth('#img1', '150px')
+      // obj2.setWidth('.logos', '100px')
+      // obj2.rotate('.logos', 30)
+      // obj2.reset('.logos')
+    </script>
+  </body>
+</html>
